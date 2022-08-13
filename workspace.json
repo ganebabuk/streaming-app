@@ -2,7 +2,13 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "footer": "libs/footer",
+    "header": "libs/header",
     "streaming-app": "apps/streaming-app",
-    "streaming-app-e2e": "apps/streaming-app-e2e"
+    "streaming-app-e2e": "apps/streaming-app-e2e",
+    "streaming-video": "apps/streaming-video",
+    "streaming-video-e2e": "apps/streaming-video-e2e",
+    "user-account": "apps/user-account",
+    "user-account-e2e": "apps/user-account-e2e"
   }
 }
