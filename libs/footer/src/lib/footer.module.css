@@ -1,7 +1,3 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.copyright {
+    @apply absolute bottom-2 w-full;
+  }

@@ -5,8 +5,8 @@ export interface FooterProps {}
 
 export function Footer(props: FooterProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Footer!</h1>
+    <div className={styles['copyright']}>
+      <p className={'text-center'}>&copy; github.com/ganebabuk</p>
     </div>
   );
 }
